@@ -1,0 +1,43 @@
+body {
+	background-color: #2F4F4F;
+	color: bisque;
+	text-align: center;
+	font:Veranda;
+	font-size:
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: aqua;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: darkgrey;
+}
+p {
+		border: 2px solid darkgrey;
+		border-radius:7px;
+}
+
+a{
+	color: aqua;
+}
+
+table,th,td{
+		border:2px solid #6495ED;
+		border-collapse:collapse;
+		margin:20%
+}
