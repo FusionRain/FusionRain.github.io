@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Browsers</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<!-- Navigation pane with links ot the other pages-->
+<nav>
+    <ul>
+        <li><a href="https://fusionrain.github.io">Home</a></li>
+        <li><a href="https://fusionrain.github.io/About">About</a></li>
+        <li><a href="https://fusionrain.github.io/Key_Concepts">Key Concepts</a></li>
+        <li><a href="https://fusionrain.github.io/History">History</a></li>
+        <li><a href="https://fusionrain.github.io/Technology">Technology</a></li>
+        <li><a href="https://fusionrain.github.io/References">References</a></li>
+        <li><a href="">Quiz</a></li>
+    </ul>
+</nav>
+
+<h1>Test Your Knowledge!</h1>
+<body>
+<!--This is where the Quiz form begins-->
+    <form>
+        <!--This is the muti choice checkbox question-->
+    <p>Which of the following are languages used to create webpages?</p>
+        <input type="checkbox" id="HTTP" name="Q1" value="HTTP">
+        <label for="HTTP">HTTP</label><br>
+        <input type="checkbox" id="html" name="Q1" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="Q1" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="javascript" name="Q1" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        <input type="checkbox" id="HTTPS" name="Q1" value="HTTPS">
+        <label for="HTTPS">HTTPS</label><br>
+        <!--Thew next 3 questions are the single choice radio button questions, named to ensure that only one can be selected-->
+    <p>When was the first web browser created?</p>
+        <input type="radio" id="1980" name="Q2" value="1980">
+        <label for="1980">1980</label><br>
+        <input type="radio" id="1990" name="Q2" value="1990">
+        <label for="1990">1990</label><br>
+        <input type="radio" id="1991" name="Q2" value="1991">
+        <label for="1991">1991</label><br>
+        <input type="radio" id="1994" name="Q2" value="1994">
+        <label for="1994">1994</label><br>
+    <p>What was the first web browser with a GUI</p>
+        <input type="radio" id="Mosaic" name="Q3" value="Mosaic">
+        <label for="Mosaic">Mosaic</label><br>
+        <input type="radio" id="Internet Explorer" name="Q3" value="Internet Explorer">
+        <label for="Internet Explorer">Internet Explorer</label><br>
+        <input type="radio" id="Opera" name="Q3" value="Opera">
+        <label for="Opera">Opera</label><br>
+        <input type="radio" id="Enquire" name="Q3" value="Enquire">
+        <label for="Enquire">Enquire</label><br>
+    <p>Which Internet browser had 99% of the market by 1999</p>
+        <input type="radio" id="Opera2" name="Q4" value="Opera">
+        <label for="Opera">Opera</label><br>
+        <input type="radio" id="Chrome" name="Q4" value="Chrome">
+        <label for="Chrome">Chrome</label><br>
+        <input type="radio" id="Safari" name="Q4" value="Safari">
+        <label for="Safari">Safari</label><br>
+        <input type="radio" id="Internet Explorer2" name="Q4" value="Internet Explorer">
+        <label for="Internet Explorer">Internet Explorer</label><br>
+        <!--This is the short answer question-->
+    <p>Who created the first web browser?</p>
+        <label for "useranswer">Answer:</label>
+        <input type="text" id="useranswer"><br><br>
+        <!--These are the buttons to submit and resets the form-->
+    <input type="button" id="turnin" Value="Submit Quiz"/>
+    <input type="reset" value="Reset"><br>
+    </form>
+<script> src="script.js"></script>
+<!--This is where the results should display-->
+<p id="results"></p>
+</body>
+
+<!--Footer with class information as is required-->
+<footer><p>This is a class project for KSU </p>
+<p>https://ksuweb.github.io/IT3203/</p>
+</footer>
+
+
+</html>
